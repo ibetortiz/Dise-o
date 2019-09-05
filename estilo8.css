@@ -1,0 +1,49 @@
+html, body {
+	height: 100%;/*Especifica la altura del area de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento.*/
+}
+
+header {
+	display: block;/*Especifica el tipo de cuadro de representación utilizado para un elemento.(El elemento genera un cuadro de elemento de bloque.)*/
+	background: #6495ED;/*Es un atajo para definir los valores individuales del fondo en una única regla CSS.*/
+	padding: 10px 0px;/*Establece el espacio de relleno requerido por todos los lados de un elemento.*/
+}
+
+section{
+	width: 79%; /*Especifica la anchura del área de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento*/
+	background: #F0FFFF;/*Es un atajo para definir los valores individuales del fondo en una única regla CSS.*/
+	float: left;/*Especifica si un elemento debe salir del flujo normal y aparecer a la izquierda o a la derecha de su contenedor */
+	overflow: auto;/*Especifica si recortar contenido, dibujar barras de desplazamiento o mostrar el contenido excedente en un elemento a nivel de bloque */
+	padding-bottom: 60px;/*Establece el espacio de relleno requerido en la parte inferior del elemento. */
+	padding-top: 30px;/*Establece el espacio de relleno requerido en la parte superior del elemento.*/
+	color: blue;/*Selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto. */
+	font-family: Verana;/*Define una lista de fuentes o familias de fuentes, con un orden de prioridad, para utilizar en un elemento seleccionado.*/
+	font-style: oblique;/*Permite definir el aspecto de una familia tipográfica entre los valores: normal, italic (cursiva) y oblique.*/
+}
+
+aside{
+	float: right;/*Especifica si un elemento debe salir del flujo normal y aparecer a la izquierda o a la derecha de su contenedor, donde los elementos de texto y los en línea aparecerán a su alrededor.*/
+	border: 1px solid blue;/*Permite definir de golpe todos los bordes en una única regla de la hoja de estilos.*/
+	width: 19%; /*Especifica la anchura del área de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento*/
+	/*border: 1px solid red;/*Permite definir de golpe todos los bordes en una única regla de la hoja de estilos.*/
+}
+
+footer{
+	position: relative;/*Especifica cómo un elemento es posicionado en el documento.*/
+	margin-top: -50px;/*La propiedad establece el área de margen en la parte superior de un elemento. Un valor positivo lo ubica más lejos de sus vecinos, mientras que un valor negativo lo ubica más cerca.*/
+	height: 40px;/*Especifica la altura del area de contenido de un elemento*/
+	padding: 5px 0px;/*Establece el espacio de relleno requerido por todos los lados de un elemento.*/
+	clear: both;/*Cspecifica si un elemento puede estar al lado de elementos flotantes que lo preceden o si debe ser movido (cleared) debajo de ellos.*/
+	background: #6495ED;/*Es un atajo para definir los valores individuales del fondo en una única regla CSS.*/
+	text-align: center;/*La propiedad establece la alineación horizontal de un elemento de bloque o cuadro de celda de tabla.*/
+	color: #fff;/*Selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto. */
+}
+
+figure{
+	display: table;/*Especifica el tipo de cuadro de representación utilizado para un elemento */
+	margin: 0 auto;/*Establece el margen para los cuatro lados.*/
+}
+
+h3, h1{
+	font-style: oblique;/*Permite definir el aspecto de una familia tipográfica entre los valores: normal, italic (cursiva) y oblique.*/
+	color: black; /*Selecciona el valor de color de primer plano del contenido de elemento de texto y decoraciones de texto. */
+}
